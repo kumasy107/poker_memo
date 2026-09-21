@@ -1,0 +1,15 @@
+{
+  "name": "poker-memo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "テキサスホールデムのハンドごとのアクションを記録するクローズドなメモアプリ",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.127.0",
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2"
+  }
+}
